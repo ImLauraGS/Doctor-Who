@@ -1,21 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 .navbar{
     width: 100%;
     display: flex;
     justify-content: space-between;
     color: white;
-    padding: 0 5rem;
+    padding: 0 7rem;
+    height: 140px;
+    position: relative;
+    align-items: center;
 }
 .navbar ul li{
     list-style: none;
-    display: inline
+    display: inline;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
 }
 
 
 .rightNavbar{
     width: 40%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    
     
 }
 
@@ -33,7 +41,15 @@
 }
 
 .logo{
-    width: 15%;
+    width: 190px;
+    position: absolute;
+    margin: auto;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+
 }
 
 .search{
@@ -50,6 +66,7 @@
 }
 
 .search input::placeholder{
-    font-weight: bolder;
     color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
  }

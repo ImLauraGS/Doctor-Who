@@ -20,8 +20,6 @@ export default function Header() {
                 <input type="search" placeholder='Buscar'/>
             </search>
             
-            
-
             <ul>
                 <li>
                     <a href="">
