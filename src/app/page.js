@@ -9,9 +9,7 @@ import Footer from '@/components/Footer';
 export default function Home() {
   return (
     <main className={styles.main}>
-      <Header/>
-      <Footer/>
-     
+      <h1>Carrusel</h1>
 
     </main>
   )
