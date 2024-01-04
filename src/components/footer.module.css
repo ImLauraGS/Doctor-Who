@@ -1,0 +1,31 @@
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 7rem;
+    position: absolute;
+    bottom: 0;
+    border-top: 1px solid white;
+    height: 50px;
+}
+
+.footer ul li{
+    display: inline;
+    list-style-type: none;
+    
+}
+
+.footer ul{
+    display: flex;
+    gap: 1rem    
+}
+
+.logoCadena{
+    width: 30px;
+    height: 30px;
+}
+
+.footer ul li img{
+    width: 16px;
+}

@@ -1,0 +1,15 @@
+{
+    "slides": [
+      {
+        "id":0,
+        "src": "img/carrusel/carrusel-1.webp",
+        "title": "The Giggle"
+      },
+      {
+        "id":1,
+        "src": "img/carrusel/carrusel-2.jpg",
+        "title": "Allons-y!"
+      }
+    ]
+  }
+  

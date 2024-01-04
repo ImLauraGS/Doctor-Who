@@ -33,6 +33,10 @@
     
 }
 
+.rightNavbar ul li img{
+    width: 16px;
+}
+
 .leftNavbar{
     width: 40%;
     display: flex;
