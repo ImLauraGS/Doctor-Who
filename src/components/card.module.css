@@ -1,0 +1,18 @@
+.doctorCard{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    
+}
+.imgContainer > img{
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+    align-items: center;
+}
+.doctorCard {
+
+  
+}

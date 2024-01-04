@@ -1,0 +1,17 @@
+.main{
+    width: 100%;
+    height: auto;
+    padding: 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.doctorsContainer{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   align-content: space-between;
+   align-items: stretch;
+   gap: 6rem  
+}

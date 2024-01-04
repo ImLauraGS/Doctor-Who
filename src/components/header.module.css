@@ -45,10 +45,12 @@
 }
 
 .logo{
-    width: 10%;
     margin: auto;
 }
 
+.logo img{
+   width: 80%;
+}
 .search{
     display: flex;
     align-items: center;
