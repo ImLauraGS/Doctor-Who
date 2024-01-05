@@ -5,10 +5,13 @@ import Link from 'next/link';
 
 
 export default function Header() {
+    
     return (
       <nav className={styles.navbar}>
         <ul className={styles.leftNavbar}>
-            <li><a href="">Conoce a</a></li>
+        <li>
+                <Link href="/conoce">Conoce a</Link>
+            </li>
             <li>
                 <Link href="/doctors">Doctores</Link>
             </li>
@@ -23,7 +26,8 @@ export default function Header() {
             
             <search className={styles.search}>
                 <img src="assets/img/icons/material-symbols-light_search.svg" alt="" />
-                <input type="search" placeholder='Buscar'/>
+                <input type="search" value={searchTerm}
+                onChange={handleSearch} placeholder='Buscar'/>
             </search>
             
             <ul>

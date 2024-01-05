@@ -1,0 +1,67 @@
+.conoceContainer{
+    width: 100%;
+    height: 80vh;
+    
+}
+
+
+.doctorInfo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 3rem 7rem;
+    position: relative;
+}
+
+
+.doctorInfo article{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-content: center;
+    text-align: center;
+    z-index: 1;
+}
+
+.doctorInfo article h1{
+    width: 80%;
+    font-size: 4em;
+}
+
+.doctorInfo article p{
+    width: 80%;
+    font-size: 1.5em;
+}
+
+.doctorInfo figure{
+    width: 30%;
+    height: 70vh;
+    z-index: 1;
+}
+.doctorInfo figure img{
+    width: 100%; 
+    height: 70vh;
+    object-fit: cover;    
+
+}
+
+.bgCircles{
+    width: 100%;
+    position: absolute;
+}
+
+.bgCircles img:first-child{
+    width: 15%;
+    position: absolute;
+    z-index: 0;
+    top: 25rem;
+}
+
+.bgCircles img:nth-child(2){
+    width: 35%;
+    right: 20rem;
+    position: absolute;
+    z-index: 0;
+}
