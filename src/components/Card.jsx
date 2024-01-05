@@ -8,9 +8,9 @@ return (
             <img src={image} alt={`${doctor} - ${actor}`} />
         </div>
           <h3>{doctor}</h3>
-          <p>Actor: {actor}</p>
-          <p>Screen Time: {screen_time}</p>
-          <a href="">Ver más</a>
+          <p>{actor}</p>
+          <p>{screen_time}</p>
+          <a className={styles.btnSee} href="">Ver más</a>
         </section>
     );
 }

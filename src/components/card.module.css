@@ -4,15 +4,38 @@
     flex-direction: column;
     justify-content: center;
     color: white;
-    
+    place-self: center stretch; 
+    margin-bottom: 3rem;
+    gap: 1rem;
 }
+
 .imgContainer > img{
     width: 250px;
     height: 350px;
-    object-fit: cover;
-    align-items: center;
+    object-fit: cover;    
 }
-.doctorCard {
-
+.imgContainer  {
+    width: 100%; 
+    place-self: center stretch;
   
+}
+
+.btnSee{
+    background-color: #FFC67E;
+    padding: .4rem;
+    width: 180px;
+    border-radius: 20px;   
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+}
+
+.doctorCard p:first-of-type{
+    font-style: italic;
+}
+
+.doctorCard p{
+    font-size: 18px;
+    font-weight: 300;
 }
