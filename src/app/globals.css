@@ -17,11 +17,9 @@ body {
   max-height: 100vh;
   overflow-x: hidden;
   background-color: #040521;
+  
 }
 
-body {
- 
-}
 
 a {
   color: inherit;

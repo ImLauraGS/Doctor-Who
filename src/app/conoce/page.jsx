@@ -10,7 +10,7 @@ export default function Conoce() {
             <article>
                 <h1>Conoce a... decimotercera doctor</h1>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit repudiandae fugiat suscipit omnis earum odio ipsam, optio officia et explicabo saepe non, libero illo sequi dicta, dolores deleniti totam quibusdam.</p>
-                <Btn text={"Ver más"}></Btn>
+                <a className={styles.btn} target="_blank" href="https://www.doctorwho.tv/">Ver más</a>
             </article>
             <figure><img src="assets/img/doctors/Thirteenth_Doctor_Jodie_Whittaker.jpg" alt="" /></figure>
             <div className={styles.bgCircles}>

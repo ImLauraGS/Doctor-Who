@@ -9,6 +9,7 @@
     height: 120px;
     position: relative;
     align-items: center;
+    z-index: 2;
 }
 .navbar ul li{
     list-style: none;

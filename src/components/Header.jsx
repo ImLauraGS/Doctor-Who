@@ -26,8 +26,7 @@ export default function Header() {
             
             <search className={styles.search}>
                 <img src="assets/img/icons/material-symbols-light_search.svg" alt="" />
-                <input type="search" value={searchTerm}
-                onChange={handleSearch} placeholder='Buscar'/>
+                <input type="search"  placeholder='Buscar'/>
             </search>
             
             <ul>

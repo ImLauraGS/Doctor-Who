@@ -1,0 +1,29 @@
+.carruselContainer{
+    width: 100vw;
+    height: 84vh;
+    position: relative;
+}
+.carruselImg{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    z-index: 0;
+}
+
+.carruselInfo{
+    width: 50%;
+    height: 80vh;
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 4rem;
+    gap: 2rem;
+    z-index: 1;
+}
+
+.carruselInfo h1{
+    color: white;
+    font-size: 80px;
+}
