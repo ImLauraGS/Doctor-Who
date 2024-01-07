@@ -30,3 +30,14 @@
 .footer ul li img{
     width: 16px;
 }
+
+@media only screen and (max-width: 760px){
+    .footer{
+        padding: 0 1rem;
+        
+        
+     
+    }
+    
+
+ }

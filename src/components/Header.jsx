@@ -4,13 +4,17 @@ import Link from 'next/link';
 
 
 
+
+
+
 export default function Header() {
     
     return (
-      <nav className={styles.navbar}>
+      <header className={styles.navbar}>
         <ul className={styles.leftNavbar}>
-        <li>
-                <Link href="/conoce">Conoce a</Link>
+            <li>
+                <Link href="/conoce">Conoce a</Link> 
+
             </li>
             <li>
                 <Link href="/doctors">Doctores</Link>
@@ -21,6 +25,7 @@ export default function Header() {
         </ul>
 
         <Link className={styles.logo} href="/"><img  src="/assets/img/logos/logo.png" alt="" /></Link>
+        
 
         <div className={styles.rightNavbar}>
             
@@ -53,7 +58,7 @@ export default function Header() {
                 
             </ul>
         </div>
-      </nav>
+      </header>
     )
   }
   

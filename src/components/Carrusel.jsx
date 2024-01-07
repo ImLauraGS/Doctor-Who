@@ -7,11 +7,11 @@ export default function Carrusel() {
   const carruselImg = [
     {
       src: "assets/img/carrusel/carrusel-1.webp",
-      title: "The Giggle"
+      title: "Allons-y!"
     },
     {
       src: "assets/img/carrusel/carrusel-2.jpg",
-      title: "Allons-y!"
+      title: "The Giggle"
     }
   ];
 

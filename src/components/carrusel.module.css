@@ -27,3 +27,18 @@
     color: white;
     font-size: 80px;
 }
+
+@media only screen and (max-width: 760px){
+    .carruselInfo h1{
+        width: 100%;
+        color: white;
+        font-size: 50px;
+    }
+
+    .carruselInfo{
+        width: 100%;
+        margin: 0 1em;
+     
+    }
+
+ }

@@ -1,12 +1,14 @@
 .btn{
     background-color: #FFC67E;
-    padding: .5rem ;
+    padding: 1rem ;
     width: 300px;
     border-radius: 20px;   
     color: black;
     font-weight: 600;
     font-size: 16px;
     text-align: center;
+    grid-column: 1 / span 1;
+    margin: auto;
 }
 
 
@@ -20,45 +22,48 @@
 
 .doctorInfo{
     width: 100%;
-    display: flex;
-    justify-content: space-between;
     color: white;
     padding: 3rem 7rem;
     position: relative;
+
 }
 
 
 .doctorInfo article{
-    width: 55%;
-    display: flex;
-    justify-content:space-around;
-    align-content: center;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto auto auto;
+    column-gap: 3rem;
+    row-gap: 1rem;
     text-align: center;
-    z-index: 1;
-    flex-wrap: wrap;
-    gap: 2rem;
+    align-items: center;
+    justify-content: center;
 }
 
 .doctorInfo article h1{
-    width: 80%;
+    grid-column: 1 / span 1;
     font-size: 4em;
+    margin: auto;
 }
 
 .doctorInfo article p{
     width: 80%;
     font-size: 1.5em;
+    grid-column: 1 / span 1;
+    margin: auto;
 }
 
 .doctorInfo figure{
-    width: 30%;
-    height: 70vh;
-    z-index: 1;
+    width: 100%;
+
 }
-.doctorInfo figure img{
+.doctorInfo img{
     width: 100%; 
     height: 70vh;
-    object-fit: cover;    
-
+    object-fit:contain; 
+    grid-row: 1 / span 3;
+    grid-column: 2 / span 1;
 }
 
 .bgCircles{
@@ -79,3 +84,75 @@
     position: absolute;
     z-index: 0;
 }
+
+@media only screen and (max-width: 760px){
+    .doctorInfo{
+        width: 100%;
+        padding: 1rem 2rem;
+
+    }
+    .doctorInfo article {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: auto auto auto auto; 
+        column-gap: 0;
+        text-align: center;
+        align-items: center;
+        justify-content:center;
+    }
+    
+    .doctorInfo article h1 {
+        width: 100%;
+        height: fit-content;
+        grid-row: 1 / span 1; 
+    }
+    
+    .doctorInfo article p {
+        height: fit-content;
+        width: 80%;
+        font-size: 1.5em;
+        grid-row: 3 / span 1; 
+        margin: auto;
+    }
+    
+    .doctorInfo img {
+        width: 500px; 
+        grid-column: 1 / span 1;
+        grid-row: 2 / span 1;
+   
+    }
+
+    .btn{
+        grid-row: 4 / span 1;
+        margin-bottom: 6rem;
+   
+
+    }
+
+    .bgCircles{
+        width: 100%;
+        position: absolute;
+    }
+    
+    .bgCircles img:first-child{
+        width: 15%;
+        right: 0;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        position: absolute;
+        z-index: 99;
+     
+    }
+    
+    .bgCircles img:nth-child(2){
+        width: 35%;
+       right: 0;
+       top: 0;
+       left: 0;
+       bottom: 0;
+        position: absolute;
+        z-index: 1;
+    }
+ }
