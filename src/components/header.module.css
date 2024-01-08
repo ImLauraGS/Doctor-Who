@@ -50,10 +50,13 @@
 
 .logo{
     margin: auto;
+    width: 10%;
 }
 
+
+
 .logo img{
-   width: 80%;
+   width: 100%;
 }
 .search{
     display: flex;

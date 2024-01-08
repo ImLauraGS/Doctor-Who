@@ -61,7 +61,7 @@
         align-content: center;
         text-align: center;
         flex-direction: column;
-        padding: 3rem 6rem;
+        padding: 1rem 3rem;
     
     }
 
@@ -72,6 +72,8 @@
         overflow: visible;
         text-align: center;
     }
+
+    
     
     .aside img{
         position: absolute;
@@ -103,7 +105,7 @@
     .aside h1{
         width: 100%;
         color: white;
-        font-size: 50px;
+        font-size: 40px;
         text-align: center;
         font-weight: 500;
     

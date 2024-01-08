@@ -103,8 +103,8 @@
     }
     
     .doctorInfo article h1 {
-        width: 100%;
-        height: fit-content;
+        width: 80%;
+        font-size: 3em;
         grid-row: 1 / span 1; 
     }
     
