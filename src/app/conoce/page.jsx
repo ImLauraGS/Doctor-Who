@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './page.module.css'
-import Btn from '@/components/btn';
+import Btn from '@/components/Btn/Btn';
 
 
 export default function Conoce() {

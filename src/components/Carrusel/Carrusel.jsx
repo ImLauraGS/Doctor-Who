@@ -1,7 +1,7 @@
 "use client";
 import styles from './carrusel.module.css';
 import React, { useState, useEffect } from 'react';
-import Btn from './Btn';
+import Btn from '../Btn/Btn';
 
 export default function Carrusel() {
   const carruselImg = [

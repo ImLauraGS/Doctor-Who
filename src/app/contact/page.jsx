@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import ContactForm from '@/components/ContactForm.jsx'
+import ContactForm from '@/components/ConctactForm/ContactForm.jsx'
 import styles from './page.module.css'
 
 

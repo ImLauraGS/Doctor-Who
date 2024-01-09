@@ -1,0 +1,9 @@
+.rrssIcons{
+    display: flex;
+    gap: 1rem;
+
+}
+
+.rrssIcons img{
+    width: 20px;
+}

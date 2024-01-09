@@ -1,5 +1,5 @@
 import styles from './card.module.css'
-import Btn from './Btn';
+import Btn from '../Btn/Btn';
 
 export default function Card({ doctorInfo }) {
     const { doctor, actor, screen_time, image } = doctorInfo;

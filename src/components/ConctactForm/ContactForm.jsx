@@ -1,4 +1,4 @@
-import styles from '@/components/contactform.module.css'
+import styles from '@/components/ConctactForm/contactform.module.css'
 
 export default function ConcactForm() {
     return (
